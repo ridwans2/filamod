@@ -1,6 +1,7 @@
 {
   "name": "ridwans2/filamod",
-  "description": "Organize your Filament Code into modules using nwidart/laravel-modules",
+
+  "description": "laravel module filamentphp 5",
   "keywords": [
     "ridwans2",
     "laravel",
@@ -15,7 +16,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Ridwan Setiawan",
+      "name": "penyair",
       "email": "penyair@gmail.com",
       "role": "Developer"
     }
@@ -42,7 +43,7 @@
   "scripts": {
     "post-autoload-dump": [
       "@clear",
-      "@prepare",
+      "@prepare"
  
     ],
    
@@ -51,7 +52,7 @@
    
     "serve": [
       "Composer\\Config::disableProcessTimeout",
-      "@build",
+      "@build"
   
     ]
     
