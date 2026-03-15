@@ -47,7 +47,7 @@ class ModuleFilamentInstallCommand extends Command implements \Illuminate\Contra
         $this->mode = ConfigMode::tryFrom(\Config::get('filament-modules.mode', ConfigMode::BOTH->value));
 
         if (! $this->option('cluster')) {
-            $this->cluster = confirm('Do you want to organize your code into filament clusters?', false);
+            $this->cluster = confirm('Do you want to organize your code into filament clusters?', true);
         }
         // Ensure the Filament directories exist
         $this->ensureFilamentDirectoriesExist();
