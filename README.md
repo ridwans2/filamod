@@ -1,17 +1,6 @@
-# Filament Modules v5.x
+# ridwans2/filamod  : 2.1
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ridwans2/filamod.svg?style=flat-square)](https://packagist.org/packages/ridwans2/filamod)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/ridwans2/filamod/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/ridwans2/filamod/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/ridwans2/filamod/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/ridwans2/filamod/actions?query=workflow%3Afix-php-code-style+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/ridwans2/filamod.svg?style=flat-square)](https://packagist.org/packages/ridwans2/filamod)
 
-> **NOTE:** This documentation is for **version 5.x** of the package, which supports **Laravel 11+**, **Filament 4.x**
-> and
-> **nwidart/laravel-modules 11+**. If you are using Filament 3.x, please refer
-> to [4.x documentation](https://github.com/ridwans2/filamod/tree/4.x)
-> or [3.x documentation](https://github.com/ridwans2/filamod/tree/3.x) if you are using Laravel 10.
-
-![image](https://github.com/ridwans2/filamod/assets/5610289/ba191f1d-b5ee-4eb9-9db7-d42a19cc8d38)
 
 This package brings the power of modules to Laravel Filament. It allows you to organize your filament code into fully
 autonomous modules that can be easily shared and reused across multiple projects.
@@ -39,14 +28,14 @@ The following is a table showing a matrix of supported filament and laravel vers
 
 | Package Version | Laravel Version | Filament Version | nwidart/laravel-modules Version |
 | --------------- | --------------- | ---------------- | ------------------------------- |
-| 1.9.5             | 13.x          | 5.x              | 13                   |
+| 2.1            | 13.x          | 5.x              | 13                   |
 
 v5.x of this package requires the following dependencies:
 
-- Laravel 11.x or 12.x
-- Filament 4.x or higher
-- PHP 8.2 or higher
-- nwidart/laravel-modules 11.x or 12.x
+- Laravel 13
+- Filament 5  
+- PHP 8.3
+- nwidart/laravel-modules 13
 
 ## Installation
 
@@ -56,16 +45,16 @@ You can install the package via composer:
 composer require ridwans2/filamod
 ```
 
-This will automatically install `nwidart/laravel-modules: ^11` (for Laravel 11) or `nwidart/laravel-modules: ^12` (for
+This will automatically install `nwidart/laravel-modules: ^13` (for Laravel 11) or `nwidart/laravel-modules: ^13` (for
 Laravel 12) as well. Make sure you go through
-the [documentation](https://laravelmodules.com/docs/12) to understand how to use the package and to configure it
+the [documentation](https://laravelmodules.com/docs/123) to understand how to use the package and to configure it
 properly before proceeding.
 
 **Task: Configure your Laravel Modules first before continuing.**
 
 ### Autoloading modules
 
-Don't forget to autoload modules by adding the merge-plugin to your composer.json according to the [laravel modules documentation](https://laravelmodules.com/docs/12/getting-started/installation-and-setup#autoloading):
+Don't forget to autoload modules by adding the merge-plugin to your composer.json according to the [laravel modules documentation](https://laravelmodules.com/docs/13/getting-started/installation-and-setup#autoloading):
 
 ```json
 "extra": {
