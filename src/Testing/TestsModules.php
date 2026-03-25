@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\Modules\Testing;
+namespace Ridwans2\Filamod\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

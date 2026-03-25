@@ -1,6 +1,6 @@
 <?php
 
-use Coolsam\Modules\Facades\FilamentModules;
+use Ridwans2\Filamod\Facades\FilamentModules;
 
 test('can convert path to namespace correctly', function () {
     $path = config('modules.paths.modules') . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'Providers' . DIRECTORY_SEPARATOR . 'TestServiceProvider.php';

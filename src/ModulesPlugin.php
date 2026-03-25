@@ -1,9 +1,9 @@
 <?php
 
-namespace Coolsam\Modules;
+namespace Ridwans2\Filamod;
 
-use Coolsam\Modules\Enums\ConfigMode;
-use Coolsam\Modules\Facades\FilamentModules;
+use Ridwans2\Filamod\Enums\ConfigMode;
+use Ridwans2\Filamod\Facades\FilamentModules;
 use Filament\Contracts\Plugin;
 use Filament\Navigation\NavigationGroup;
 use Filament\Navigation\NavigationItem;

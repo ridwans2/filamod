@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\Modules\Commands\FileGenerators;
+namespace Ridwans2\Filamod\Commands\FileGenerators;
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;

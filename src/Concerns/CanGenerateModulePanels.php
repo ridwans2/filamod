@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\Modules\Concerns;
+namespace Ridwans2\Filamod\Concerns;
 
 use Filament\Facades\Filament;
 use Filament\Support\Commands\Concerns\CanManipulateFiles;

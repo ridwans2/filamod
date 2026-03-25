@@ -1,9 +1,9 @@
 <?php
 
-namespace Coolsam\Modules\Commands;
+namespace Ridwans2\Filamod\Commands;
 
-use Coolsam\Modules\Concerns\GeneratesModularFiles;
-use Coolsam\Modules\Facades\FilamentModules;
+use Ridwans2\Filamod\Concerns\GeneratesModularFiles;
+use Ridwans2\Filamod\Facades\FilamentModules;
 use Filament\Commands\MakeClusterCommand;
 use Illuminate\Support\Arr;
 

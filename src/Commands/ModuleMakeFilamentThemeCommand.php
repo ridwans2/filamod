@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\Modules\Commands;
+namespace Ridwans2\Filamod\Commands;
 
-use Coolsam\Modules\Facades\FilamentModules;
+use Ridwans2\Filamod\Facades\FilamentModules;
 use Filament\Commands\MakeThemeCommand;
 use Filament\Panel;
 use Illuminate\Filesystem\Filesystem;

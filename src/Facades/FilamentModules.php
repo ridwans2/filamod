@@ -1,16 +1,16 @@
 <?php
 
-namespace Coolsam\Modules\Facades;
+namespace Ridwans2\Filamod\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Coolsam\Modules\Modules
+ * @see \Ridwans2\Filamod\Modules
  */
 class FilamentModules extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Coolsam\Modules\Modules::class;
+        return \Ridwans2\Filamod\Modules::class;
     }
 }

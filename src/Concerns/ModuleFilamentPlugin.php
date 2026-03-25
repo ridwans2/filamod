@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\Modules\Concerns;
+namespace Ridwans2\Filamod\Concerns;
 
 use Filament\Panel;
 use Nwidart\Modules\Facades\Module;

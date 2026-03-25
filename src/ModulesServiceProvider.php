@@ -1,9 +1,9 @@
 <?php
 
-namespace Coolsam\Modules;
+namespace Ridwans2\Filamod;
 
-use Coolsam\Modules\Facades\FilamentModules;
-use Coolsam\Modules\Testing\TestsModules;
+use Ridwans2\Filamod\Facades\FilamentModules;
+use Ridwans2\Filamod\Testing\TestsModules;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
@@ -142,7 +142,7 @@ class ModulesServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'coolsam/modules';
+        return 'ridwans2/filamod';
     }
 
     /**

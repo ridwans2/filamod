@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\Modules\Concerns;
+namespace Ridwans2\Filamod\Concerns;
 
-use Coolsam\Modules\Facades\FilamentModules;
+use Ridwans2\Filamod\Facades\FilamentModules;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
 use Nwidart\Modules\Module;

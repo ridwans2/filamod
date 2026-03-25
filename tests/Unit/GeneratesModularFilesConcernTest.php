@@ -4,7 +4,7 @@
 beforeEach(function () {
     $this->trait = new class extends \Illuminate\Console\Command
     {
-        use Coolsam\Modules\Concerns\GeneratesModularFiles;
+        use Ridwans2\Filamod\Concerns\GeneratesModularFiles;
 
         public function getRelativeNamespace(): string
         {

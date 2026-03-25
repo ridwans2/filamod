@@ -1,10 +1,10 @@
 <?php
 
-namespace Coolsam\Modules\Tests;
+namespace Ridwans2\Filamod\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use Coolsam\Modules\ModulesServiceProvider;
+use Ridwans2\Filamod\ModulesServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\FilamentServiceProvider;
 use Filament\Forms\FormsServiceProvider;
@@ -29,7 +29,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Coolsam\\Modules\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Ridwans2\\Filamod\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 

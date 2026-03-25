@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\Modules;
+namespace Ridwans2\Filamod;
 
 abstract class Resource extends \Filament\Resources\Resource
 {
-    use \Coolsam\Modules\Traits\CanAccessTrait;
+    use \Ridwans2\Filamod\Traits\CanAccessTrait;
 }

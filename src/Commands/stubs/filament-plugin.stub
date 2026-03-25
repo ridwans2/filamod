@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Coolsam\Modules\Concerns\ModuleFilamentPlugin;
+use Ridwans2\Filamod\Concerns\ModuleFilamentPlugin;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 

@@ -1,13 +1,13 @@
 # Filament Modules v5.x
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/coolsam/modules.svg?style=flat-square)](https://packagist.org/packages/coolsam/modules)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ridwans2/filamod.svg?style=flat-square)](https://packagist.org/packages/ridwans2/filamod)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/savannabits/filament-modules/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/savannabits/filament-modules/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/savannabits/filament-modules/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/savannabits/filament-modules/actions?query=workflow%3Afix-php-code-style+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/coolsam/modules.svg?style=flat-square)](https://packagist.org/packages/coolsam/modules)
+[![Total Downloads](https://img.shields.io/packagist/dt/ridwans2/filamod.svg?style=flat-square)](https://packagist.org/packages/ridwans2/filamod)
 
 > **NOTE:** This documentation is for **version 5.x** of the package, which supports **Laravel 11+**, **Filament 4.x**
 > and
-**nwidart/laravel-modules 11+**. If you are using Filament 3.x, please refer
+> **nwidart/laravel-modules 11+**. If you are using Filament 3.x, please refer
 > to [4.x documentation](https://github.com/savannabits/filament-modules/tree/4.x)
 > or [3.x documentation](https://github.com/savannabits/filament-modules/tree/3.x) if you are using Laravel 10.
 
@@ -38,7 +38,7 @@ with Laravel Filament.
 The following is a table showing a matrix of supported filament and laravel versions for each version of this package:
 
 | Package Version | Laravel Version | Filament Version | nwidart/laravel-modules Version |
-|-----------------|-----------------|------------------|---------------------------------|
+| --------------- | --------------- | ---------------- | ------------------------------- |
 | 5.x             | 11.x and 12.x   | 4.x              | 11.x or 12.x                    |
 | 4.x             | 11.x and 12.x   | 3.x              | 11.x or 12.x                    |
 | 3.x             | 10.x            | 3.x              | 11.x                            |
@@ -55,7 +55,7 @@ v5.x of this package requires the following dependencies:
 You can install the package via composer:
 
 ```bash
-composer require coolsam/modules
+composer require ridwans2/filamod
 ```
 
 This will automatically install `nwidart/laravel-modules: ^11` (for Laravel 11) or `nwidart/laravel-modules: ^12` (for
@@ -133,8 +133,8 @@ In order to achieve this, you need to register the `ModulesPlugin` in your panel
 
 ```php
 // e.g. in App\Providers\Filament\AdminPanelProvider.php
- 
-use Coolsam\Modules\ModulesPlugin;
+
+use Ridwans2\Filamod\ModulesPlugin;
 public function panel(Panel $panel): Panel
 {
     return $panel
@@ -276,40 +276,40 @@ php artisan module:make:filament-panel
 php artisan module:filament:panel
 php artisan module:filament:make-panel
 ```
-Follow the interactive prompts to create a new panel in your module.
 
+Follow the interactive prompts to create a new panel in your module.
 
 ### Protecting your resources, pages and widgets (Access Control) - WIP
 
 ```php
-use Coolsam\Modules\Resource;
+use Ridwans2\Filamod\Resource;
 ```
 
 use the above resource class instead of `use Filament/Resources/Resource;` into your resource class file to protect your
 resources.
 
 ```php
-use Coolsam\Modules\Page;
+use Ridwans2\Filamod\Page;
 ```
 
 use the above page class instead of `use Filament/Pages/Page;` into your page class file to protect your pages.
 
 ```php
-use Coolsam\Modules\TableWidget;
+use Ridwans2\Filamod\TableWidget;
 ```
 
 use the above page class instead of `use Filament/Pages/TableWidget;` into your widget class file to protect your
 TableWidget.
 
 ```php
-use Coolsam\Modules\ChartWidget;
+use Ridwans2\Filamod\ChartWidget;
 ```
 
 use the above page class instead of `use Filament/Pages/ChartWidget;` into your widget class file to protect your
 ChartWidget.
 
 ```php
-use Coolsam\Modules\StatsOverviewWidget;
+use Ridwans2\Filamod\StatsOverviewWidget;
 ```
 
 use the above page class instead of `use Filament/Pages/StatsOverviewWidget;` into your widget class file to protect

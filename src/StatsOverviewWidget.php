@@ -1,10 +1,10 @@
 <?php
 
-namespace Coolsam\Modules;
+namespace Ridwans2\Filamod;
 
 abstract class StatsOverviewWidget extends \Filament\Widgets\StatsOverviewWidget
 {
-    use \Coolsam\Modules\Traits\CanAccessTrait;
+    use \Ridwans2\Filamod\Traits\CanAccessTrait;
 
     public static function canView(): bool
     {

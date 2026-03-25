@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\Modules\Commands;
+namespace Ridwans2\Filamod\Commands;
 
-use Coolsam\Modules\Enums\ConfigMode;
+use Ridwans2\Filamod\Enums\ConfigMode;
 use Filament\Support\Commands\Concerns\CanManipulateFiles;
 use Illuminate\Console\Command;
 use Illuminate\Console\Concerns\PromptsForMissingInput;

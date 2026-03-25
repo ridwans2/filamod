@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\Modules\Traits;
+namespace Ridwans2\Filamod\Traits;
 
 trait CanAccessTrait
 {

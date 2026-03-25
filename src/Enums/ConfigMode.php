@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\Modules\Enums;
+namespace Ridwans2\Filamod\Enums;
 
 enum ConfigMode: string
 {

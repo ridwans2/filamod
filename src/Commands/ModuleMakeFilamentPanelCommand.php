@@ -1,9 +1,9 @@
 <?php
 
-namespace Coolsam\Modules\Commands;
+namespace Ridwans2\Filamod\Commands;
 
-use Coolsam\Modules\Commands\FileGenerators\ModulePanelProviderClassGenerator;
-use Coolsam\Modules\Concerns\GeneratesModularFiles;
+use Ridwans2\Filamod\Commands\FileGenerators\ModulePanelProviderClassGenerator;
+use Ridwans2\Filamod\Concerns\GeneratesModularFiles;
 use Filament\Commands\MakePanelCommand;
 use Filament\Support\Commands\Concerns\CanGeneratePanels;
 use Filament\Support\Commands\Concerns\CanManipulateFiles;

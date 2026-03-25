@@ -1,92 +1,92 @@
 {
-  "name": "coolsam/modules",
-  "description": "Organize your Filament Code into modules using nwidart/laravel-modules",
-  "keywords": [
-    "coolsam",
-    "laravel",
-    "FilamentModules",
-    "filament"
-  ],
-  "homepage": "https://github.com/savannabits/filament-modules",
-  "support": {
-    "issues": "https://github.com/savannabits/filament-modules/issues",
-    "source": "https://github.com/savannabits/filament-modules"
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Sam Maosa",
-      "email": "maosa.sam@gmail.com",
-      "role": "Developer"
-    }
-  ],
-  "require": {
-    "php": "^8.3",
-    "filament/filament": "^4.0|^5.0",
-    "nwidart/laravel-modules": "^11.0|^12.0",
-    "spatie/laravel-package-tools": "^1.15.0"
-  },
-  "require-dev": {
-    "barryvdh/laravel-ide-helper": "^3.5",
-    "laravel/pint": "^1.0",
-    "nunomaduro/larastan": "^3.1.0",
-    "orchestra/testbench": "^9.12",
-    "pestphp/pest-plugin-laravel": "^3.1",
-    "pestphp/pest-plugin-livewire": "^3.0",
-    "phpstan/extension-installer": "^1.4.3",
-    "spatie/laravel-ray": "^1.39"
-  },
-  "autoload": {
-    "psr-4": {
-      "Coolsam\\Modules\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Coolsam\\Modules\\Tests\\": "tests/"
-    }
-  },
-  "scripts": {
-    "post-autoload-dump": [
-      "@clear",
-      "@prepare",
-      "@php ./vendor/bin/testbench package:discover --ansi"
+    "name": "ridwans2/filamod",
+    "description": "Organize your Filament Code into modules using nwidart/laravel-modules",
+    "keywords": [
+        "ridwans2",
+        "laravel",
+        "FilamentModules",
+        "filament"
     ],
-    "analyse": "vendor/bin/phpstan analyse",
-    "test": "vendor/bin/pest",
-    "test-coverage": "vendor/bin/pest --coverage",
-    "format": "vendor/bin/pint",
-    "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
-    "prepare": "@php vendor/bin/testbench package:discover --ansi",
-    "build": "@php vendor/bin/testbench workbench:build --ansi",
-    "serve": [
-      "Composer\\Config::disableProcessTimeout",
-      "@build",
-      "@php vendor/bin/testbench serve"
+    "homepage": "https://github.com/ridwans2/filamod",
+    "support": {
+        "issues": "https://github.com/ridwans2/filamod/issues",
+        "source": "https://github.com/ridwans2/filamod"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "penyair kesepian",
+            "email": "penyair@gmail.com",
+            "role": "Developer"
+        }
     ],
-    "lint": [
-      "@php vendor/bin/pint",
-      "@php vendor/bin/phpstan analyse"
-    ]
-  },
-  "config": {
-    "sort-packages": true,
-    "allow-plugins": {
-      "pestphp/pest-plugin": true,
-      "phpstan/extension-installer": true,
-      "wikimedia/composer-merge-plugin": true
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Coolsam\\Modules\\ModulesServiceProvider"
-      ],
-      "aliases": {
-        "FilamentModules": "FilamentModules"
-      }
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "require": {
+        "php": "^8.3",
+        "filament/filament": "^5.0",
+        "nwidart/laravel-modules": "^13.0",
+        "spatie/laravel-package-tools": "^1.93.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^3.5",
+        "laravel/pint": "^1.0",
+        "nunomaduro/larastan": "^3.1.0",
+        "orchestra/testbench": "^9.12",
+        "pestphp/pest-plugin-laravel": "^3.1",
+        "pestphp/pest-plugin-livewire": "^3.0",
+        "phpstan/extension-installer": "^1.4.3",
+        "spatie/laravel-ray": "^1.39"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ridwans2\\Filamod\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ridwans2\\Filamod\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@clear",
+            "@prepare",
+            "@php ./vendor/bin/testbench package:discover --ansi"
+        ],
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint",
+        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "prepare": "@php vendor/bin/testbench package:discover --ansi",
+        "build": "@php vendor/bin/testbench workbench:build --ansi",
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "@build",
+            "@php vendor/bin/testbench serve"
+        ],
+        "lint": [
+            "@php vendor/bin/pint",
+            "@php vendor/bin/phpstan analyse"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true,
+            "wikimedia/composer-merge-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ridwans2\\Filamod\\ModulesServiceProvider"
+            ],
+            "aliases": {
+                "FilamentModules": "FilamentModules"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

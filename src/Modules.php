@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\Modules;
+namespace Ridwans2\Filamod;
 
-use Coolsam\Modules\Enums\ConfigMode;
+use Ridwans2\Filamod\Enums\ConfigMode;
 use Filament\Panel;
 use Illuminate\Console\Command;
 use Illuminate\Support\Traits\Macroable;
