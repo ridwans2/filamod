@@ -39,9 +39,7 @@ The following is a table showing a matrix of supported filament and laravel vers
 
 | Package Version | Laravel Version | Filament Version | nwidart/laravel-modules Version |
 | --------------- | --------------- | ---------------- | ------------------------------- |
-| 5.x             | 11.x and 12.x   | 4.x              | 11.x or 12.x                    |
-| 4.x             | 11.x and 12.x   | 3.x              | 11.x or 12.x                    |
-| 3.x             | 10.x            | 3.x              | 11.x                            |
+| 1.9.5             | 13.x          | 5.x              | 13                   |
 
 v5.x of this package requires the following dependencies:
 
