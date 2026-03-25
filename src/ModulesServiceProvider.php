@@ -81,7 +81,8 @@ class ModulesServiceProvider extends PackageServiceProvider
             $namespace = FilamentModules::convertPathToNamespace($provider);
             $module = str($namespace)->before('\Providers\\')->afterLast('\\')->toString();
             $className = str($namespace)->afterLast('\\')->toString();
-            if (str($className)->startsWith($module) && \Module::isEnabled($module)){
+            $moduleEnabled = \Module::find($module)?->isEnabled() ?? false;
+            if (str($className)->startsWith($module) && $moduleEnabled){
                 // register the module service provider
                 $this->app->register($namespace);
             }
